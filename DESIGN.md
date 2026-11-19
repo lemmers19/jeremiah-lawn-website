@@ -21,7 +21,8 @@ A lawn is part of the welcome home. The page uses a vivid field-green identity a
 
 ## Composition and components
 
-- Split, photo-led opening with a deep spruce text field and a broad lawn image.
+- Split, photo-led opening with a deep spruce text field and a supplied lawn-work photo.
+- Four-photo gallery keeps the original portrait images visible in an open, evenly paced grid.
 - Use the supplied Jeremiah's Lawn Care mower wordmark in the header and footer; blend its light image background into each surface.
 - Open editorial sections with generous spacing, asymmetric text columns, and custom line illustrations.
 - Rounded pill actions and thin rules; no repeating card grid.

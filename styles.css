@@ -399,6 +399,73 @@ button:focus-visible {
   font-size: 16px;
 }
 
+.work {
+  padding-block: clamp(88px, 11vw, 142px) clamp(96px, 12vw, 152px);
+  background: #e9ebdf;
+}
+
+.work-heading {
+  display: grid;
+  grid-template-columns: 1.1fr 0.7fr;
+  gap: clamp(40px, 9vw, 125px);
+  align-items: end;
+  margin-bottom: 48px;
+}
+
+.work-heading .section-label {
+  margin-bottom: 18px;
+}
+
+.work-heading h2 {
+  max-width: 700px;
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(58px, 7.6vw, 100px);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 0.9;
+  text-wrap: balance;
+}
+
+.work-heading h2 em {
+  color: #718e3b;
+  font-style: normal;
+}
+
+.work-heading > p {
+  max-width: 370px;
+  margin: 0 0 5px;
+  color: #536258;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.work-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 24px);
+}
+
+.work-photo {
+  min-width: 0;
+  margin: 0;
+}
+
+.work-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 0.78;
+  object-fit: cover;
+  background: #d3d9ca;
+}
+
+.work-photo figcaption {
+  padding-top: 13px;
+  color: var(--pine);
+  font-size: 11px;
+  font-weight: 800;
+}
+
 .care {
   overflow: hidden;
   background:
@@ -722,6 +789,21 @@ button:focus-visible {
     width: calc(100% - 64px);
   }
 
+  .work-heading {
+    grid-template-columns: 1fr 0.75fr;
+    gap: 30px;
+    margin-bottom: 34px;
+  }
+
+  .work-heading h2 {
+    font-size: clamp(56px, 8vw, 76px);
+  }
+
+  .work-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px 18px;
+  }
+
   .intro {
     gap: 55px;
   }
@@ -903,6 +985,38 @@ button:focus-visible {
   .intro h2 {
     max-width: 520px;
     font-size: clamp(56px, 12vw, 78px);
+  }
+
+  .work {
+    padding-block: 84px 94px;
+  }
+
+  .work-heading {
+    grid-template-columns: 1fr;
+    gap: 19px;
+    margin-bottom: 30px;
+  }
+
+  .work-heading .section-label {
+    margin-bottom: 14px;
+  }
+
+  .work-heading h2 {
+    font-size: clamp(57px, 12vw, 78px);
+  }
+
+  .work-heading > p {
+    max-width: 420px;
+    font-size: 12px;
+  }
+
+  .work-gallery {
+    gap: 23px 13px;
+  }
+
+  .work-photo figcaption {
+    padding-top: 10px;
+    font-size: 10px;
   }
 
   .intro-copy {
